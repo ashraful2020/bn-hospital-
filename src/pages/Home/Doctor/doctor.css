@@ -1,0 +1,25 @@
+.doctor-card{
+    width: 95%;
+    padding: 20px 10px !important;
+    background-color: rgba(236, 225, 211, 0.63) !important;
+    margin: 0 auto !important;
+}
+.doctor-card:hover{  
+    background-color: rgba(180, 219, 190, 0.568) !important;
+    box-shadow: 1px 1px 10px 1px rgb(92, 83, 83);
+    transition: background-color .51s ease-in-out;
+}
+.social-media{ 
+    font-size: 30px;
+    text-align: center;
+}
+.skype{
+    color:#03a9f4;
+}
+.facebook{
+    color: rgb(122, 175, 255);
+}
+.twitter{
+    
+    color: rgb(57, 103, 172);
+}

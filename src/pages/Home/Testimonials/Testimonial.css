@@ -1,0 +1,58 @@
+/* Testimonial header font cdn */ 
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto+Mono:wght@700&display=swap');
+/* other font cdn */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+.testimonial{
+    width: 80%;
+    margin: 0 auto;
+}
+.testimonial-header{
+    font-family: 'Hurricane', cursive;
+font-family: 'Roboto Mono', monospace;
+color: #090;
+ 
+}
+.review{
+   font-family: 'Roboto Mono', monospace;
+   margin: 0;
+}
+.reviewer-name{
+    font-family: 'Hurricane', cursive; 
+    color: rgba(53, 53, 247, 0.829);
+    font-size: 40px;
+    margin: 0;
+}
+.review-info{
+    margin: 0;
+}
+.reviewer-icon{ 
+    width: 50px;
+    height: 50px;
+    /* text-align: center; */
+    border-radius: 50%;
+    background-color: rgb(144, 211, 255);
+    border: 3px solid gray;
+    font-size: 35px;
+    margin: 0 auto;
+    
+}
+.review-container{
+    width: 80%;
+    background-color: rgb(215, 225, 228);
+    margin: 0 auto;
+    padding: 20px;
+}
+.review-name{
+    width: 92%;
+    margin: 40px 0px 0px !important;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.review-message{
+    width: 92%;
+    margin: 40px 0px 0px;
+    font-size: 20px;
+    padding: 10px 10px;
+} 

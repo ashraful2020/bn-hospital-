@@ -1,0 +1,26 @@
+/* title font */
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto+Mono:wght@700&display=swap");
+/* other font cdn */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+
+.banner {
+  width: 95%;
+  margin: 0 auto;
+}
+.banner-title {
+  font-family: "Hurricane", cursive;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(55, 24, 168);
+  font-size: 50px;
+  margin: 0px;
+  padding-top: 100px;
+}
+.banner-description {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+}
+@media only screen and (max-width: 320px) {
+  .banner-title {
+    font-size: 30px;
+  }
+}

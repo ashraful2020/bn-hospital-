@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "bn-hospital",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}

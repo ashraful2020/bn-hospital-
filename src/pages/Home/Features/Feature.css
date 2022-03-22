@@ -1,0 +1,28 @@
+.features-header{
+
+}
+.feature-icon{
+    font-size: 30px;
+    color: white;
+    background-color: #5ebf9a;
+    padding:30px;
+    border: 2px solid #001182;
+    border-radius: 50%;
+    /* margin: auto 0; */
+}
+.feature-title{ 
+    margin:0;
+    margin-bottom: 5px;
+    color: rgba(224, 88, 88, 0.658);
+}
+.feature-description{
+    /* padding:0;
+    margin:0; */
+}
+
+@media only screen and (max-width: 380px){ 
+    .feature-icon{
+        margin-top: 50%;
+        padding:25px;
+    }
+} 
